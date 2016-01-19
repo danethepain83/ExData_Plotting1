@@ -18,3 +18,6 @@ rm(full_dataset)
 ## Converting the dates
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
+
+dev.copy(png, filename = "plot2.png", width=480, height=480)
+dev.off()

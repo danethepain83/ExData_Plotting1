@@ -5,3 +5,6 @@ ba <- read.table(text = grep("^[1,2]/2/2007", readLines(file_in), value = TRUE),
 ##Plot 2
 plot(data$Global_active_power ~ data$Datetime, type = "l",
      ylab = "Global Active Power (kilowatts)", xlab = "")
+
+dev.copy(png, filename = "plot2.png", width=480, height=480)
+dev.off()
