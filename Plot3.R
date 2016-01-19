@@ -12,5 +12,5 @@ with(data, {
 legend("topright", col = c("black", "red", "blue"), lty = 1, lwd = 2, 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 	   
-dev.copy(png, filename = "plot2.png", width=480, height=480)
+dev.copy(png, filename = "plot4.png", width=480, height=480)
 dev.off()	  

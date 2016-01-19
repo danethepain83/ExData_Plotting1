@@ -19,5 +19,5 @@ rm(full_dataset)
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
 
-dev.copy(png, filename = "plot2.png", width=480, height=480)
+dev.copy(png, filename = "plot1.png", width=480, height=480)
 dev.off()

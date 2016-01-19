@@ -19,5 +19,5 @@ with(data, {
        ylab = "Global_rective_power", xlab = "datetime")
 })
 
-dev.copy(png, filename = "plot2.png", width=480, height=480)
+dev.copy(png, filename = "plot4.png", width=480, height=480)
 dev.off()
